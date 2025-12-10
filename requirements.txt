@@ -1,0 +1,13 @@
+python-telegram-bot==20.7  # Stable, no async issues
+easyocr==1.7.1
+groq==0.4.1  # Compatible with httpx<0.28
+gspread==6.1.0
+google-auth==2.29.0
+google-auth-oauthlib==1.2.0
+google-auth-httplib2==0.2.0
+Pillow
+python-dotenv==1.0.0
+requests==2.31.0
+httpx  # Fixes Groq proxies
+fastapi==0.104.1  # Stable for FastAPI
+uvicorn==0.24.0  # For running FastAPI
